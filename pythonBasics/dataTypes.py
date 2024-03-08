@@ -8,3 +8,4 @@ exampleDictionary = {
     "age":19,
     "isAdult":True
 }
+exampleTuple = ("Tomás", "Contreras", 19, True) #To a tuple, its data cannot be changed once it is created.
