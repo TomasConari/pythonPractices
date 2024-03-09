@@ -1,4 +1,4 @@
-These are some Exercises that I tried to solve while learning Python.
+Here are the basic concepts of Python and some exercises that I solved.
 
 My Links:
 
