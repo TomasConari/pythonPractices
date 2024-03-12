@@ -36,16 +36,22 @@ print(exponentiation)
 print("Logical Operators")
 
 #And operator
-num = float(input("(5 > 3) and (10 < "))
-print(5 > 3) and (10 < num)
+bool1 = True
+bool2 = True
+comparison = bool1 and bool2
+print(f"{bool1} and {bool2}: {comparison}")
 
 #Or operator
-num = float(input("(8 < 10) or (5 > "))
-print((8 < 10) or (5 > num))
+bool1 = True
+bool2 = False
+comparison = bool1 or bool2
+print(f"{bool1} or {bool2}: {comparison}")
 
 #Not operator
-num = float(input("not (2 > "))
-print(not (2 > num))
+bool1 = False
+bool2 = False
+comparison = not (bool1 and bool2)
+print(f"not ({bool1} and {bool2}): {comparison}")
 
 
 #Comparison Operators
@@ -56,10 +62,22 @@ print("Comparison Operators")
 num = float(input("1 > "))
 print((1 > num))
 
-#Smaller than
+#Greater than or equal to
+num = float(input("5 >= "))
+print((5 >= num))
+
+#Less than
 num = float(input("3 < "))
 print(3 < num)
+
+#Less than or equal to
+num = float(input("10 <= "))
+print(10 <= num)
 
 #Equal to
 num = float(input("4 == "))
 print(4 == num)
+
+#Not equal to
+num = float(input("4 != "))
+print(4 != num)
