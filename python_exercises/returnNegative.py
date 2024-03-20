@@ -5,10 +5,10 @@
 
 num = int(input("Enter a number "))
 
-def makeNegative(number):
+def make_negative(number):
     if number > 0:
         return number * -1
     else:
         return number
     
-print(makeNegative(num))
+print(make_negative(num))

@@ -19,8 +19,8 @@ division = 20 / float(input("20 / "))
 print(division)
 
 #integerDivision
-integerDivision = 20 // float(input("20 // ")) #returns the result of the division discarding the decimals
-print(integerDivision)
+integer_division = 20 // float(input("20 // ")) #returns the result of the division discarding the decimals
+print(integer_division)
 
 #modulo
 modulo = 10 % float(input("10 % "))

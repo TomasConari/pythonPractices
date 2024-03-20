@@ -3,18 +3,18 @@
 
 #https://www.codewars.com/kata/53369039d7ab3ac506000467/train/python
 
-inputBoolean = int(input("1. True \n2. False\n"))
-if inputBoolean == 1:
-    inputBoolean = True
+input_boolean = int(input("1. True \n2. False\n"))
+if input_boolean == 1:
+    input_boolean = True
 else:
-    inputBoolean = False
+    input_boolean = False
 
-def boolToWord(boolean):
+def bool_to_word(boolean):
     if boolean == True:
         return "Yes"
     else:
         return "No"
     
-print(boolToWord(inputBoolean))
+print(bool_to_word(input_boolean))
 
 

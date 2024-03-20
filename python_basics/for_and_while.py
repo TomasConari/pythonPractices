@@ -8,26 +8,26 @@ for letter in quote:
     print(letter)
 
 #List
-exampleList = [0, 5, 10, 15, 20, 25]
+example_list = [0, 5, 10, 15, 20, 25]
 print("For List: ")
-for num in exampleList:
+for num in example_list:
     print(num)
 
 #Dictionary
-exampleDictionary = {
+example_dictionary = {
     "name":"Tomás",
     "lastname":"Contreras",
     "age":"19",
     "isAdult":True
 }
 print("For Dictionary Keys: ")
-for key in exampleDictionary:
+for key in example_dictionary:
     print(key) #In python when iterating over a dictionary, only the keys are received
 print("For Dictionary Values: ")
-for value in exampleDictionary.values():
+for value in example_dictionary.values():
     print(value)
 print("For full Dictionary: ")
-for key, value in exampleDictionary.items(): #In Python, during the iteration of a for loop, the unpacking process is based on the position and structure of the elements in the iterable
+for key, value in example_dictionary.items(): #In Python, during the iteration of a for loop, the unpacking process is based on the position and structure of the elements in the iterable
     print(f"{key}:{value}")
 
 #Range
